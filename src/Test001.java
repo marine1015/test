@@ -9,6 +9,6 @@ public class Test001 {
     }
 
     public int abc(int a){
-        return 123;
+        return a+1;
     }
 }
