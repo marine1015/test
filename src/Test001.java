@@ -5,10 +5,10 @@ public class Test001 {
         int a = 1;
 
         float f = Float.valueOf("123.123");
-        System.out.println(a);
+        System.out.println(abc(a));
     }
 
-    public int abc(int a){
-        return a+1;
+    private static int abc(int a){
+        return a+1+1;
     }
 }
